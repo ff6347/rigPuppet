@@ -2,6 +2,8 @@ These scripts are usefull to rig and link sequenced layers using expressions for
 it uses a coustum effect. You need to add them to your After Effects.
 This is tested in AE CS4 only on one computer. Its all a bit experimental.
 fabiantheblind Dec 5- 2010 
+WARNING this works on other machines (tested on Windows) but there are some localization issues
+to use this in english change in script TMN_applyExpressions.jsx "Schieberegler"to "Slider"
 
 add costum effect (coustumEffectLayout_XX.xml) to PresetEffects.xml at the end before the </Effects> element closes
 This code will give you the path to the enclosing folder of the AE application
