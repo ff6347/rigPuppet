@@ -22,14 +22,22 @@ important the headcontrol has to be the firat layer the the bodymovement control
 the order in the puppet is as follows
 headControl_(puppets.name)
 control_(puppets.name)
-arm_front
-body
-arm_behind
+alphaControl_
+arm_right
+arm_left
 heads
-leg_left
 leg_right
+leg_left
+body
+
+now duplicate the body 4 times and use it as a inverted alpha matte for each arm and each leg
+select the matte comps and run script
+TMN_buildAphaConroller.jsx
+
 
 in the heads comp it is:
+head_L
+head_HL
 head_F
 head_HR
 head_R
