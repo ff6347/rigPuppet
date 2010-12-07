@@ -12,7 +12,7 @@
 				<Slider name="legleft=leg left" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
 				<Point name="positionlegleft=position leg left" default_x="0" default_y="0"/>
 				<Angle name="rotatelegleft=rotate leg left" default="0"/>
-				<Checkbox name="armleftbehind=arm left behind" default="false"/>
+				<Checkbox name="legsleftbehind=legs left behind" default="false"/>
 				<Slider name="legright=leg right" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
 				<Point name="positionlegright=position leg right" default_x="0" default_y="0"/>
 				<Angle name="rotatelegright=rotate leg right" default="0"/>
