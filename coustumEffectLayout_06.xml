@@ -1,0 +1,49 @@
+<Effect matchname="tmnpuppet" name="tmn puppet">
+	<Group name="headcontrol=headcontrol">
+			<Slider name="eyeslids=eyes lids" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+			<Slider name="eyes=eyes" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+			<Slider name="mouth=mouth" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+			<Slider name="head=head" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+			<Point name="positionhead=position head" default_x="0" default_y="0"/>
+			<Angle name="rotatehead=rotate head" default="0"/>
+	</Group>
+		<Group name="bodymovement=bodymovement">
+			<Group name="legs=legs">
+				<Slider name="legleft=leg left" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+				<Point name="positionlegleft=position leg left" default_x="0" default_y="0"/>
+				<Angle name="rotatelegleft=rotate leg left" default="0"/>
+				<Checkbox name="legsleftbehind=legs left behind" default="false"/>
+				<Slider name="legright=leg right" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+				<Point name="positionlegright=position leg right" default_x="0" default_y="0"/>
+				<Angle name="rotatelegright=rotate leg right" default="0"/>
+				<Checkbox name="legrightbehind=leg right behind" default="false"/>
+				
+			</Group>
+			<Group name="arms=arms">
+				<Slider name="armleft=arm left" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+				<Point name="positionarmleft=position arm left" default_x="0" default_y="0"/>
+				<Angle name="rotatearmleft=rotate arm left" default="0"/>
+				<Checkbox name="armleftbehind=arm left behind" default="false"/>
+				<Slider name="armright=arm right" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+				<Point name="positionarmright=position arm right" default_x="0" default_y="0"/>
+				<Angle name="rotatearmright=rotate arm right" default="0"/>
+				<Checkbox name="armrightbehind=arm right behind" default="false"/>
+				
+			</Group>
+			<Group name="body=body">
+				<Slider name="body=body" default="0" valid_min="0" valid_max="100" slider_min="0" slider_max="100"/>
+				<Angle name="bodyrotate=body rotate" default="0"/>
+				<Point name="bodyposition=body position" default_x="0" default_y="0"/>
+			</Group>
+		</Group>
+		<Group name="meta=meta">
+				<Checkbox name="checkbox=checkbox" default="false"/>
+				<Slider name="sliderone=slider one" default="0" valid_min="-100" valid_max="100" slider_min="-100" slider_max="100"/>
+				<Slider name="slidertwo=slider two" default="0" valid_min="-100" valid_max="100" slider_min="-100" slider_max="100"/>
+				<Slider name="sliderthree=slider three" default="0" valid_min="-100" valid_max="100" slider_min="-100" slider_max="100"/>
+				<Point name="point=point" default_x="0" default_y="0"/>
+				<Angle name="angle=angle" default="0"/>
+				<Color name="color=color" default_red="128" default_green="128" default_blue="128"/>
+				<Layer name="layer=layer" default_self="true"/>
+		</Group>
+</Effect>
