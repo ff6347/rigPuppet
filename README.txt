@@ -14,6 +14,7 @@ crop all comps using region of interest
 Sequence all footage items in each comp !! heads comp must be sequenced to (using TMNSequenz.jsx)
 set anchor point for all comps!! not footage items
 use script TMN_buildHeadController.jsx in puppet comp
+in the puppet comp parent the arms and the heads comps to the body
 use script TMN_applyExpressions.jsx with the layers in your puppetcomp (delete the whole text from the second prompt watch out there is a second line of code)
 use script  TMN_applyExpressions.jsx with the layers eyes and mouth  of all head_XX comps
 important the headcontrol has to be the firat layer the the bodymovement control the second then:
