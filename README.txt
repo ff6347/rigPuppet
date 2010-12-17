@@ -43,6 +43,13 @@ in the heads comp it is:
 **head_HR**
 **head_R**
 
+!!!! UPDATE !!!!
+
+The head will be decomposed and so the rig puupet will be changed.
+Move all head layers to main puppet comp and use script:
+
+TMN_headsUplink.jsx
+
 SAVE THE project import it into another project
 Now you have a ready set up puppet. The next script makes the uplink to the comp where your animation happens
 You con now build as many puppets as you want. But you cant duplicate them in the master comp. You have to realy duplicate it in the project window
